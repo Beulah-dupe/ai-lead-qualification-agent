@@ -1,0 +1,25 @@
+{
+  "name": "ai-lead-qualification-agent",
+  "version": "1.0.0",
+  "description": "An AI agent (powered by Claude) that reads incoming leads, qualifies them, and triggers automation actions — CRM routing, tagging, and auto-replies.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test/test-agent.js"
+  },
+  "keywords": [
+    "ai agent",
+    "claude ai",
+    "workflow automation",
+    "lead qualification",
+    "gohighlevel",
+    "zapier",
+    "make.com"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.1",
+    "express": "^4.19.2"
+  }
+}
